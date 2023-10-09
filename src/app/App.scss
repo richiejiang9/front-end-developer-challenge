@@ -36,7 +36,6 @@
       min-height: max-content;
     }
   }
-
 }
 
 body {
@@ -53,13 +52,13 @@ body {
     .app-container {
 
       align-items: center;
+
       .title-card {
         font-size: 25px;
         margin-bottom: 0px;
       }
 
       .components-container {
-        display: flex;
         flex-direction: column;
       }
 

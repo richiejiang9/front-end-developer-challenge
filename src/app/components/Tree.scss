@@ -1,67 +1,49 @@
-.components-container {
+.trees-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    min-height: max-content;
-    width: 100%;
+    flex-direction: column;
 
-    .trees-container {
-        display: flex;
-        flex-direction: column;
-
-        .talent-tree-container {
-            display: flex;
-            align-items: center;
-            gap: 3rem;
-        }
-    }
-
-    .points-counter-container {
-        background-color: #08080b;
-        border: 1px solid #363345;
+    .talent-tree-container {
         display: flex;
         align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin: 2%;
-        min-width: max-content;
-       
-        font-size: 1.5rem;
-        font-weight: 500;
-        padding: 1.5rem;
-        width: 100%;
-        max-width: 150px;
-
-        .points-spent {
-            color: #445e84;
-        }
-
+        gap: 3rem;
     }
 }
 
+.points-counter-container {
+    background-color: #08080b;
+    border: 1px solid #363345;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    min-width: max-content;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 150px;
+
+    .points-spent {
+        color: #445e84;
+    }
+}
+
+
 @media (max-width: 1024px) {
-    .components-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        min-height: max-content;
-        width: 100%;
 
-        .trees-container {
+    .trees-container {
+        flex-direction: column;
+
+        .talent-tree-container {
             flex-direction: column;
+            gap: 2rem;
 
-            .talent-tree-container {
-                flex-direction: column;
-                gap: 2rem;
-
-                .tree-title {
-                    position: relative;
-                    top: 1rem;
-                }
+            .tree-title {
+                position: relative;
+                top: 1rem;
             }
-
         }
     }
 

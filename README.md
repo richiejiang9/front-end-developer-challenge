@@ -1,9 +1,12 @@
 # To the Team
-Hi all, thank you for the opportunity to work on this front-end project!
+Hi all, thank you for the opportunity to work on this project!
 The technologies used were Javascript, React, and SCSS.
 
-For the project, I treated it as a real app and tried to think ahead. The tree, paths and runes were all seperated so that they would be easy to re-use for future endeavors.
-I utilized a runesData JSON object that had each rune's information, with the intent of treating it like a respone from a service call. If additional rune branches were to be displayed, the back-end would simply need to add another branch with its runes to the JSON.
+For the project, I treated it as a real appication and tried to think ahead. The tree, paths and runes were all seperated into individual components so that they would be easy to re-use for future endeavors.
+
+I utilized a runesData JSON object that had each rune's information, with the intent of treating it like a response from a API call. If additional rune branches were to be displayed, the 'back-end team' would simply need to add another branch with its runes to the JSON.
+
+For an additional feature, I focused on adding readability and clarity for desktop users. I created a tooltip that displays the name of the rune after hovering over it for 1.5 seconds. I thought of the idea after not being quite sure what the fifth rune was. I labelled it Skiing as a best guess.
 
 ## Installation and Usage
 Clone the project to your local machine:
@@ -21,6 +24,7 @@ Run:
 $ npm start
 ```
 Open http://localhost:3000 to view it in the browser.
+
 
 # Front-End Developer Challenge
 In this repo you will find a mock-up and all the necessary assets (in a separate folder). The design is of a tool for a fictitious game called “TitanStar Legends”, and will not be repurposed or otherwise utilized by D&D Beyond – it is only a coding challenge.

@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import "./Path.scss"
-import Rune from "../rune/Rune";
+import { useEffect, useState } from 'react';
+import './Path.scss'
+import Rune from '../rune/Rune';
 
 const Branch = (props) => {
     const [pointsSpentOnPath, setPointsSpentOnPath] = useState(0);
