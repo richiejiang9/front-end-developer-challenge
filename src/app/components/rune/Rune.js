@@ -2,16 +2,27 @@ import './Rune.scss';
 
 const Rune = (props) => {
   const handleLeftClick = () => {
+<<<<<<< HEAD
     if (props.pointsSpentOnPath === props.runeIndex && props.totalPointsSpent !== props.totalPoints) {
       props.assignPoint(true, props.pathIndex, props.runeIndex)
     }
+=======
+    if (props.pointsSpentOnPath !== props.runeIndex || props.totalPointsSpent === props.totalPoints) return undefined;
+    props.assignPoint(true, props.pathIndex, props.runeIndex)
+>>>>>>> 74af44a6b05abf9da91fe43e616ea8700d1a9fe6
   }
 
   const handleRightClick = (e) => {
     e.preventDefault()
+<<<<<<< HEAD
     if (props.pointsSpentOnPath === props.runeIndex + 1 && props.totalPointsSpent !== 0) {
       props.assignPoint(false, props.pathIndex, props.runeIndex)
     }
+=======
+    if (props.pointsSpentOnPath !== props.runeIndex + 1 || props.totalPointsSpent === 0) return undefined;
+    props.assignPoint(false, props.pathIndex, props.runeIndex)
+
+>>>>>>> 74af44a6b05abf9da91fe43e616ea8700d1a9fe6
   }
 
   return (

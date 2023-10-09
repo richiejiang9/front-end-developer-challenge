@@ -5,7 +5,7 @@ import Path from './path/Path';
 
 const Tree = () => {
     const [totalPoints] = useState(6);
-    const [totalPointsSpent, setAllPointsSpent] = useState(0);
+    const [totalPointsSpent, setTotalPointsSpent] = useState(0);
     const [paths, setPaths] = useState(Object.values(runeData));
 
     const assignPoint = (isActive, pathIndex, runeIndex) => {
@@ -14,10 +14,10 @@ const Tree = () => {
         setPaths(assignedPath);
 
         if (isActive === true) {
-            setAllPointsSpent(totalPointsSpent + 1)
+            setTotalPointsSpent(totalPointsSpent + 1)
         }
         else (
-            setAllPointsSpent(totalPointsSpent - 1)
+            setTotalPointsSpent(totalPointsSpent - 1)
         )
     }
 
