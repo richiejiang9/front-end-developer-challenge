@@ -1,0 +1,46 @@
+{
+  "Talent Path 1": [
+    {
+      "name": "Stacking",
+      "isActive": false,
+      "posX": 0
+    },
+    {
+      "name": "Cooking",
+      "isActive": false,
+      "posX": 1
+    },
+    {
+      "name": "Birthday",
+      "isActive": false,
+      "posX": 2
+    },
+    {
+      "name": "Crown",
+      "isActive": false,
+      "posX": 3
+    }
+  ],
+  "Talent Path 2": [
+    {
+      "name": "Skiing",
+      "isActive": false,
+      "posX": 4
+    },
+    {
+      "name": "Diving",
+      "isActive": false,
+      "posX": 5
+    },
+    {
+      "name": "Lightning",
+      "isActive": false,
+      "posX": 6
+    },
+    {
+      "name": "Death",
+      "isActive": false,
+      "posX": 7
+    }
+  ]
+}

@@ -1,3 +1,27 @@
+# To the Team
+Hi all, thank you for the opportunity to work on this front-end project!
+The technologies used were Javascript, React, and SCSS.
+
+For the project, I treated it as a real app and tried to think ahead. The tree, paths and runes were all seperated so that they would be easy to re-use for future endeavors.
+I utilized a runesData JSON object that had each rune's information, with the intent of treating it like a respone from a service call. If additional rune branches were to be displayed, the back-end would simply need to add another branch with its runes to the JSON.
+
+## Installation and Usage
+Clone the project to your local machine:
+```sh
+git clone https://github.com/richiejiang9/front-end-developer-challenge.git
+```
+
+Then open up the project folder in a command line or your preferred compiler or code editor.
+Install the necessary packages:
+```sh
+$ npm install
+```
+Run:
+```sh
+$ npm start
+```
+Open http://localhost:3000 to view it in the browser.
+
 # Front-End Developer Challenge
 In this repo you will find a mock-up and all the necessary assets (in a separate folder). The design is of a tool for a fictitious game called “TitanStar Legends”, and will not be repurposed or otherwise utilized by D&D Beyond – it is only a coding challenge.
 

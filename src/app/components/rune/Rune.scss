@@ -1,0 +1,51 @@
+.rune-container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(#5f5f62 0%, #5f5f62 50%, #373740 50%, #5f5f62);
+    border: black 2px, solid;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+
+    .rune-icon {
+        background-image: url('~/src/app/assets/talent-icons-sprite.png');
+        background-position-x: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        inset: 0;
+    }
+}
+
+.progress-bar {
+    &:not(:last-of-type) {
+        background-color: #302f36;
+        border-top: #5f5f62 1px solid;
+        border-bottom: #5f5f62 1px solid;
+        width: 5rem;
+        height: 1rem;
+        z-index: 0;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .progress-bar {
+        &:not(:last-of-type) {
+            width: 3.5rem;
+        }
+
+    }
+}
+
+@media (max-width: 460px) {
+    .progress-bar {
+        &:not(:last-of-type) {
+            width: 2rem;
+        }
+
+    }
+}
