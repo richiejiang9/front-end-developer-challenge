@@ -3,9 +3,9 @@ Hi all, thank you for the opportunity to work on this project!
 The technologies used were Javascript, React, Jest, and SCSS.
 
 The tree, paths and runes were all seperated into individual components so that they would be easy to re-use for future endeavors.
-I utilized a runesData JSON object that had each rune's information, with the intent of treating it like a response from a API call. If additional rune branches were to be displayed, the 'back-end team' would simply need to add another branch with its runes to the JSON.
+I stored the runes' data in a JSON file, with the intent of treating it like a response from a API call. If additional rune branches were to be displayed, the 'back-end team' would simply need to add another branch with its runes to the JSON.
 
-For an additional feature, I focused on adding readability and clarity for desktop users. I created a tooltip that displays the name of the rune after hovering over it for 1.5 seconds. I thought of the idea after not being quite sure what the fifth rune was. I labelled it Skiing as a best guess.
+For an additional feature, I focused on adding readability and clarity for desktop users. I created a tooltip that displays the name of the rune after hovering over it for 1.5 seconds. I am still not quite sure what the fifth rune is, but for the sake of this project, I called it Skiing.
 
 ## Installation and Usage
 Clone the project to your local machine:
