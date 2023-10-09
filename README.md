@@ -1,9 +1,8 @@
 # To the Team
 Hi all, thank you for the opportunity to work on this project!
-The technologies used were Javascript, React, and SCSS.
+The technologies used were Javascript, React, Jest, and SCSS.
 
-For the project, I treated it as a real appication and tried to think ahead. The tree, paths and runes were all seperated into individual components so that they would be easy to re-use for future endeavors.
-
+The tree, paths and runes were all seperated into individual components so that they would be easy to re-use for future endeavors.
 I utilized a runesData JSON object that had each rune's information, with the intent of treating it like a response from a API call. If additional rune branches were to be displayed, the 'back-end team' would simply need to add another branch with its runes to the JSON.
 
 For an additional feature, I focused on adding readability and clarity for desktop users. I created a tooltip that displays the name of the rune after hovering over it for 1.5 seconds. I thought of the idea after not being quite sure what the fifth rune was. I labelled it Skiing as a best guess.
@@ -19,11 +18,16 @@ Install the necessary packages:
 ```sh
 $ npm install
 ```
-Run:
+To run the app, use:
 ```sh
 $ npm start
 ```
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000 to view the calculator in the browser.
+
+To see unit tests, use:
+```sh
+$ npm test
+```
 
 
 # Front-End Developer Challenge

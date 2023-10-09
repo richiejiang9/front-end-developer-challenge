@@ -65,3 +65,13 @@ body {
     }
   }
 }
+
+@media (max-width: 800px) {
+  .app {
+    .app-container {
+      .title-card {
+        flex-direction: column;
+      }
+    }
+  }
+}

@@ -7,11 +7,13 @@ function App() {
     <div className="app">
       <div className="app-container">
         <div className="title-card-container">
-          <div className="title-card">TitanStar Legends - Rune Mastery Loadout Talent Calculator 9000</div>
+          <div className="title-card">
+            <div style={{paddingRight: '5px'}}>TitanStar Legends -</div>
+            <div>Rune Mastery Loadout Talent Calculator 9000</div></div>
         </div>
         <div className="components-container">
-        <Tree />
-      </div>
+          <Tree />
+        </div>
       </div>
     </div>
   );
