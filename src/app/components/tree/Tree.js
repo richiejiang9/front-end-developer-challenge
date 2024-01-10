@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Tree.scss'
-import runeData from '../data/runesData.json'
-import Path from './path/Path';
+import runeData from '../../data/runesData.json'
+import Path from '../path/Path';
 
 const Tree = () => {
     const [totalPoints] = useState(6);

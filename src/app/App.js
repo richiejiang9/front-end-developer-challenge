@@ -1,5 +1,5 @@
 import './App.scss';
-import Tree from './components/Tree';
+import Tree from './components/tree/Tree';
 
 function App() {
 
