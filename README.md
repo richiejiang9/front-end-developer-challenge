@@ -1,4 +1,7 @@
 # To the Team
+
+**Demo:** https://front-end-developer-challenge-richiejiang9.vercel.app/
+
 Hi all, thank you for the opportunity to work on this project!
 The technologies used were Javascript, React, Jest, and SCSS.
 
